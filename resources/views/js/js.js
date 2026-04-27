@@ -1,9 +1,6 @@
 function api_parcial() {
     var enPoint="https://fakestoreapi.com/products"
     fetch(endPoint)
-    .then(function(response)function api_parcial() {
-    var enPoint="https://fakestoreapi.com/products"
-    fetch(endPoint)
     .then(function(response){
         return response.json()
         
@@ -15,4 +12,4 @@ function api_parcial() {
         }
     })
 }
-}
+
